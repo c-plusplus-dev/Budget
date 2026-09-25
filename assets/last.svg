@@ -1,0 +1,67 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="50"
+    height="50"
+    viewBox="0 0 50 50"
+>
+    <defs>
+        <marker
+            id="arrowhead"
+            markerWidth="2.5"
+            markerHeight="2.5"
+            refX="1"
+            refY="1.25"
+            orient="auto">
+            <g transform="scale(0.24)">
+                <path d="M1 1 L10 5 L1 10 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-linejoin="round"/>
+            </g>
+        </marker>
+    </defs>
+
+    <g transform="translate(5, 17.65) scale(0.35)">
+        <path
+            d="
+                M8 0
+                h26
+                a8 8 0 0 1 8 8
+                v26
+                a8 8 0 0 1 -8 8
+                h-26
+                a8 8 0 0 1 -8 -8
+                v-26
+                a8 8 0 0 1 8 -8
+                Z
+            "
+            fill="#FFFFFF"
+        />
+    </g>
+    <g transform="translate(30.3, 17.65) scale(0.35)">
+        <path
+            d="
+                M8 0
+                h26
+                a8 8 0 0 1 8 8
+                v26
+                a8 8 0 0 1 -8 8
+                h-26
+                a8 8 0 0 1 -8 -8
+                v-26
+                a8 8 0 0 1 8 -8
+                Z
+            "
+            fill="#FFFFFF"
+        />
+    </g>
+
+    <path
+        d="
+            M21 17
+            Q25 13 29 17
+        "
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-linecap="round"
+        stroke-width="1"
+        marker-end="url(#arrowhead)"
+    />
+</svg>
