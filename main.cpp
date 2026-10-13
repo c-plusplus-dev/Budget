@@ -1098,7 +1098,7 @@ int main() {
                     if (block_cost <= 0) continue;
                     double percent = static_cast<double>(block_cost) / static_cast<double>(total);
                     SDL_Color c = BlockToColor(block);
-                    blocksAndColors.push_back(BlockNameAndPercentColorMix {block.name, percent, c, CalculateTotalCostOfBlock(block)});
+                    blocksAndColors.push_back(BlockNameAndPercentColorMix {block.name, percent, c, block_cost});
                 }
 
                 SortBlockNameAndPercentColorMixByPercent(blocksAndColors);
