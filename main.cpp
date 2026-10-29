@@ -782,7 +782,7 @@ int main() {
                 int cx = static_cast<int>(button.x) + 15;
                 int cy = static_cast<int>(button.y) + 15;
 
-                double start = -M_PI / 2;
+                double start = -M_PI_2;
                 constexpr double gap = 0.02;
                 constexpr double by = 1.0f / 12.0f - gap;
                 start -= by * M_PI;
